@@ -1,7 +1,81 @@
 
 
-/*first suptitle*/
-h1.title {
-	font-family: 'Kanit', sans-serif;
-	font-size: 64px;
-}
+		/*first suptitle*/
+		
+	.intro {
+		width: 100%;
+		height: 100vh;
+	}
+		
+	.title__easy1 h1{
+		font-family: 'Kanit', sans-serif;
+		font-size: 64px;
+		text-align: right;
+				/*up right down left*/
+		margin: 140px 50px 0px 0px;
+	}
+	
+	.title__easy2 h1{
+		font-family: 'Kanit', sans-serif;
+		font-size: 64px;
+		text-align: left;
+				/*up right down left*/
+		margin: 140px 0px 0px 50px;
+		background: #E95259;
+	}
+		
+	.title__easy1 {
+		width: 50%;
+		font-family: 'Kanit', sans-serif;
+		background: #FFFFFF;
+	}
+	
+	.title__easy2 {
+		width: 50%;
+		font-family: 'Kanit', sans-serif;
+		background: #E95259;
+	}
+		
+	.title {
+		display: flex;
+		align-items: up;
+		justify-content: center;
+		height: 100%;
+	}
+	
+	/*vtoroy kysok*/
+	
+	.container {
+		position: absolute;
+		top: 360px;
+		left: 260px;
+		width: 1400px;
+		height: 100%;
+
+	}
+	
+	.container__pol1 {
+		width: 50%;
+		font-family: 'Kanit', sans-serif;
+		background: #E95259;
+		border-radius: 40px 0 0 0;
+		text-align: center;
+	}
+	
+	.container__pol2 {
+		width: 50%;
+		font-family: 'Kanit', sans-serif;
+		background: #FFFFFF;
+		border-radius: 0 40px 0 0;
+		text-align: center;
+	}
+	
+		.container__inside {
+		display: flex;
+		align-items: up;
+		justify-content: center;
+		height: 100%;
+		box-shadow: -0.5px -0.5px 25px #000000;
+		border-radius: 40px 40px 0 0;
+		}
+		
