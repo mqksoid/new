@@ -62,7 +62,6 @@
 		font-family: 'Kanit', sans-serif;
 		background: #E95259;
 		border-radius: 40px 0 0 0;
-		text-align: right;
 	}
 	
 	.container__pol2 {
@@ -148,7 +147,7 @@
 	.liv__exe2 {
 		font-family: 'Kanit', sans-serif;
 		color: #000000;
-		text-align: left;
+		text-align: right;
 		font-size: 28px;
 		text-decoration: none;
 		
@@ -172,4 +171,15 @@
 	.liv__exe1:hover {
 		color: #EE82EE;
 	}
-	/*нужно пофиксить точки и сделать отступы в нужых местах*/
+	
+	.link__li1 {
+		margin: 0 0 0 492px;
+	}
+	
+	li {
+		list-style-type: none;
+    }
+	
+	li:before {
+		content: "► ";
+	}
